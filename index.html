@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html>
+ <head> 
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no"/>
+ 
+  <title>Mi aplicacion</title>
+
+  <!--grupo CSS-->
+  <link rel="stylesheet" href="css/jquery.mobile-1.4.5.min.css" />
+  <link rel="stylesheet" href="css/jquery.mobile.icons-1.4.5.min.css" />
+  <link rel="stylesheet" href="css/jquery.mobile.structure-1.4.5.min.css" /> 
+        
+        
+
+
+  <!--grupo JavaScript-->
+  <script src="js/jquery-1.11.2.min.js"></script>
+  <script src="js/jquery.mobile-1.4.5.min.js"></script>
+  <script src="js/acciones.js" type="text/javascript"></script>
+  <!-- <script src="phonegap.js" type="text/javascript"></script> -->
+ </head>
+
+ <body>
+ 
+ <!-- Principal -->
+ <div data-role="page" id="principal" >   
+  <div data-role="header">
+    <h1>APLICACION05</h1>
+  </div>
+
+  <div data-role="main" class="ui-content">
+  <input type="text" id="txtnombre" placeholder="Nombre"/>
+ 
+   <a href="#" id="btndatos" class="ui-btn ui-btn ui-icon-bars ui-btn-icon-right ui-btn-corner-all  ui-shadow data-transition="flip"">siguiente</a>
+  
+  </div>
+    
+  <div data-role="footer">
+    <h1>@ Andy Diaz</h1>
+  </div>
+ </div>  
+
+ </div>  
+ <!-- Principal -->
+ <!-- datos -->
+ <div data-role="page" id="datos" >   
+  <div data-role="header">
+    <h1>APLICACION05</h1>
+  </div>
+
+  <div data-role="main" class="ui-content">
+    
+     <input type="number" id="txtpeso" placeholder="Peso">
+   <input type="number" id="txttalla" placeholder="Talla">
+   
+    <a href="#" id="btnresultado" class="ui-btn ui-btn ui-icon-bars ui-btn-icon-right ui-btn-corner-all  ui-shadow data-transition="flip"">siguiente</a>
+  
+  </div>
+
+  <div data-role="footer">
+    <h1>@ Andy Diaz</h1>
+  </div>
+ </div>  
+
+ </div>  
+ <!-- datos -->
+ <!-- resultado -->
+ <div data-role="page" id="resultado" >   
+  <div data-role="header">
+    <h1>APLICACION05</h1>
+    
+  </div>
+
+  <div data-role="main" class="ui-content">
+  <div align="center"> 
+  <h1> Resultado </h1>
+  <h1> I M C </h1>
+  <div id="imc">
+  </div>
+  </div>
+  
+   
+  </div>
+
+  <div data-role="footer">
+    <h1>@ Andy Diaz</h1>
+  </div>
+ </div>  
+
+ </div>  
+ <!-- resultado -->
+
+ </body>
+</html> 
